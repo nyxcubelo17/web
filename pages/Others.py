@@ -2,7 +2,7 @@ from PIL import Image
 import requests
 
 import streamlit as st
-from streamlit_lottie import st_lottie
+#from streamlit_lottie import st_lottie
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -15,7 +15,7 @@ st.title("Others")
 import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/kdramas.png")
 
 # --- PROJECTS ---
@@ -31,7 +31,7 @@ with text_column:
 import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/newthings.jpg")
 
 
@@ -45,7 +45,7 @@ with text_column:
 
     st.write("I love exploring new things and doing things outside the box. ")
 
-    lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+    #lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images/nature.jpeg")
 
 
